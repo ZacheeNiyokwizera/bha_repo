@@ -554,6 +554,7 @@ p {
     box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 0.5rem;
     position: relative;
+    margin-bottom: 35px;
 }
 
 .card-img-wrapper {
@@ -588,16 +589,21 @@ p {
 .card-info button {
     z-index: 1;
     width: 37rem;
-    height: 3rem;
+    height: 8rem;
     background-color: #c29525;
     border: none;
     font-family: "Baloo Da 2", serif;
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 1.5rem;
     color: #eee;
     border-radius: 0.3rem;
     box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
     margin-left: -11px;
+}
+
+.card-info button h3 {
+    margin-top: 15px;
+    font-weight: 300;
 }
 
 
@@ -617,12 +623,12 @@ p {
     height: 75rem;
     display: flex;
     margin-top: 60px;
-    box-shadow: 0 3rem 7rem #1E90FF;
+    box-shadow: 0 0.5rem 1rem #ffc330;
 }
 
 .contact-left {
     width: 35%;
-    background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)), url(images/contact_bg.jpg) center no-repeat;
+    background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)), url(images/cont.jpg) center no-repeat;
     background-size: cover;
 }
 
@@ -736,7 +742,7 @@ p {
     text-align: center;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 #services .service-top {
@@ -1118,6 +1124,9 @@ p {
     }
     .footer {
         height: 25rem;
+    }
+    .card {
+        margin-bottom: 110px;
     }
 }
 
