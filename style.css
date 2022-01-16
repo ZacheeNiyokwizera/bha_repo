@@ -1160,7 +1160,7 @@ p {
     .card-info button {
         z-index: 1;
         width: 37rem;
-        height: 3rem;
+        height: 9rem;
         background-color: #c29525;
         border: none;
         font-family: "Baloo Da 2", serif;
@@ -1172,3 +1172,108 @@ p {
         margin-left: -11px;
     }
 }
+
+/* gallery styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   .grid {
+    padding: 5em;
+   }
+   
+   .grid-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.5em;
+   }
+   
+   .item {
+    flex: 1 1 100%;
+    padding: 0.5em;
+   }
+   
+   .item-inner {
+    background-size: cover;
+    background-image: url('images/pic1.jpg');
+    padding-top: calc(100% / (16/9));
+    padding-bottom: 150px;
+   }
+   
+   .item:nth-child(2) .item-inner {
+    padding-bottom: 150px;
+       width: 400px;
+    background-image: url('images/pic2.jpg');
+   }
+   .item:nth-child(3) .item-inner {
+    padding-bottom: 150px;
+    width: 400px;
+    background-image: url('images/pic3.jpg');
+   }
+   .item:nth-child(4) .item-inner {
+    padding-bottom: 150px;
+    width: 400px;
+    background-image: url('images/pic4.jpg');
+   }
+   .item:nth-child(5) .item-inner {
+    padding-bottom: 150px;
+    background-image: url('images/pic5.jpg');
+   }
+   .item:nth-child(6) .item-inner {
+    padding-bottom: 150px;
+    background-image: url('images/pic6.jpg');
+   }
+   .item:nth-child(7) .item-inner {
+    padding-bottom: 150px;
+    background-image: url('images/pic7.jpg');
+   }
+   .item:nth-child(8) .item-inner {
+    padding-bottom: 150px;
+    background-image: url('images/pic8.jpg');
+   }
+   .item:nth-child(9) .item-inner {
+    padding-bottom: 150px;
+    background-image: url('images/pic9.jpg');
+   }
+   .item:nth-child(10) .item-inner {
+    padding-bottom: 150px;
+    background-image: url('images/pic1.jpg');
+   }
+   .item:nth-child(11) .item-inner {
+    padding-bottom: 150px;
+    background-image: url('images/pic10.jpg');
+   }
+   .item:nth-child(12) .item-inner {
+    padding-bottom: 150px;
+    background-image: url('images/pic11.jpg');
+   }
+   .item:nth-child(13) .item-inner {
+       padding-bottom: 150px;
+    background-image: url('images/pic12.jpg');
+   }
+   .item:nth-child(14) .item-inner {
+    padding-bottom: 150px;
+    background-image: url('images/pic13.jpg');
+   }
+  
+   
+   @media screen and (min-width: 480px) {
+    .item {
+     flex: 1 1 50%;
+    }
+   }
+   
+   @media screen and (min-width: 768px) {
+    .item {
+     flex: 1 1 33.333%;
+    }
+   }
+   
+   @media screen and (min-width: 980px) {
+    .item {
+     flex: 1 1 25%;
+    }
+   }
